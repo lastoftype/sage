@@ -1,12 +1,16 @@
 {
-    "name": "roots/sage",
-    "description": "WordPress starter theme that uses gulp, Bower, and Bootstrap",
-    "keywords": ["sage", "wordpress", "roots"],
-    "homepage": "https://roots.io/sage/",
-    "license": "MIT",
-    "extra": {
-        "branch-alias": {
-            "dev-master": "3.3.x-dev"
-        }
+  "name": "roots/sage",
+  "description": "WordPress starter theme that uses gulp, Bower, and Bootstrap",
+  "keywords": ["sage", "wordpress", "roots"],
+  "homepage": "https://roots.io/sage/",
+  "license": "MIT",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "3.3.x-dev"
     }
+  },
+  "type": "wordpress-theme",
+  "require": {
+    "composer/installers": "v1.0.6"
+  }
 }
